@@ -18,7 +18,7 @@ implementada e inserindo ali seus objetos!
 ## 📦 Desenvolvimento
 
 Run teste-target: ng serve
-Run TestTarget in VisualStudio for question 3!
+Run TestTarget no VisualStudio IIS Express para resolução da pergunta 3, ela pode ser feita somente na API enviando um Objeto vazio.
 
 ## 🛠️ Construído com
 <p>*[Swagger] - Documentação API</p>
