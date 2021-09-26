@@ -26,22 +26,6 @@ namespace TestTarget.Controllers
             string dadosJson = sr.ReadToEnd();
             return dadosJson;
         }
-      
-
-
-        private static List<Faturamento> faturamentos = new List<Faturamento>();
-
-        [HttpPost]
-        public int CalcResult(int indice, int soma, int k)
-        {
-            while (k < indice)
-            {
-                k = k + 1;
-                soma = soma + k;
-            }
-            return soma;
-        }
-
 
         [HttpGet("menorFat")]
         public Faturamento menorFaturamento()
