@@ -21,10 +21,10 @@ Run teste-target: ng serve
 Run TestTarget in VisualStudio for question 3!
 
 ## 🛠️ Construído com
-* [Swagger] - Documentação API
-.Net Core 5
-Angular CLI: 12.2.7
-Node: 14.17.5
+<p>*[Swagger] - Documentação API</p>
+<p>.Net Core 5</p>
+<p>Angular CLI: 12.2.7</p>
+<p>Node: 14.17.5</p>
 
 ## ✒️ Autores
 
