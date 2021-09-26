@@ -5,7 +5,9 @@ mostre mais efiência na resolução do problema com json.
 O teste tem 5 questões e todas podem ser visualizadas no projeto em Angular.
 
 ## 🚀 Começando
-É necessária instalação do Angular CLI: 12.2.7, Node: 14.17.5 e .NetCore 5.
+<p>É necessária instalação do Angular CLI: 12.2.7, Node: 14.17.5 e .NetCore 5.</p>
+<p>O Projeto TestTarget é a parte do Backend em asp.net do projeto.</p>
+<p>O Projeto teste-target é a parte do Frontend em Angular 12 do projeto.</p>
 
 ### 🔧 Instalação
 
