@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <main>
+    <div>
+      <h3>
+        4) Dado o valor de faturamento mensal de uma distribuidora, detalhado por estado:
+      </h3>
+    </div>
+    <div>
+      <p>Escreva um programa na linguagem que desejar onde calcule o percentual de representação que cada estado teve dentro do valor total mensal da distribuidora.</p>
+      <p>SP – R$67.836,43</p>
+      <p>RJ – R$36.678,66</p>
+      <p>MG – R$29.229,88</p>
+      <p>ES – R$27.165,48</p>
+      <p>Outros – R$19.849,53</p>
+    </div>
+    <p>Resposta</p>
+    <div class="Porcentagens">
+      <div class="estados">
+        <span *ngFor="let p of porcentagens | keyvalue"> Estado:{{p.key}} </span>
+      </div>
+      <div class="valores">
+        <span *ngFor="let p of porcentagens | keyvalue"> Representação:{{p.value}}% </span>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

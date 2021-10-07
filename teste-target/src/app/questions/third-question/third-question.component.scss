@@ -1,0 +1,51 @@
+.insert-json {
+  width: 100%;
+  height: 150px;
+}
+
+body {
+  margin: 0;
+}
+main {
+  border: 1px solid #835afd;;
+  border-image-slice: 1;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 5px 20px 10px 20px;
+  .resultados {
+    display: flex;
+    .resultado-esq {
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      button {
+        margin-bottom: 10px;
+      }
+      .menor {
+        padding: 0 0 20px 0;
+      }
+    }
+    .resultado-dir {
+      display: flex;
+      .fullList {
+        padding-left: 40px;
+        display: flex;
+        flex-direction: column;
+        .lista {
+          border-bottom: solid 1px rgba(0, 0, 0, 0.2);
+          width: auto;
+          span {
+            margin-left: 10px;
+          }
+        }
+        .lista:last-child{
+          border: none;
+        }
+      }
+      button {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

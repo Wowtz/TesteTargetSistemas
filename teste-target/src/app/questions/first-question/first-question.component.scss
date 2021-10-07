@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  main {
+    border: 1px solid #835afd;;
+    border-image-slice: 1;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 5px 20px 10px 20px;
+    .question1 {
+      display: flex;
+      .pergunta {
+        height: 100%;
+        width: 50%;
+      }
+      .resposta {
+        padding-left: 10px;
+        height: 100%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        .res {
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}

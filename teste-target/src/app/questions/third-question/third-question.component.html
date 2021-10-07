@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <main>
+    <div>
+      <h3>
+        3) Dado um vetor que guarda o valor de faturamento diário de uma distribuidora, faça um programa, na linguagem que desejar, que calcule e retorne:
+      </h3>
+      <p>
+        • O menor valor de faturamento ocorrido em um dia do mês;
+      </p>
+      <p>
+        • O maior valor de faturamento ocorrido em um dia do mês;
+      </p>
+      <p>
+        • Número de dias no mês em que o valor de faturamento diário foi superior à média mensal.
+      </p>
+      <h4>
+        IMPORTANTE:
+      </h4>
+      <p>
+        a) Usar o json ou xml disponível como fonte dos dados do faturamento mensal;
+      </p>
+      <p>
+        b) Podem existir dias sem faturamento, como nos finais de semana e feriados. Estes dias devem ser ignorados no cálculo da média;
+      </p>
+    </div>
+    <div class="resultados">
+      <div class="resultado-esq">
+        <div class="menor">
+          <button (click)="menorFat()">Menor Valor do Período</button>
+          <span  *ngIf="menor.valor >= 0">O menor valor foi {{menor.valor}} no dia {{menor.dia}}</span>
+        </div>
+        <div class="maior">
+          <button (click)="maiorFat()">Maior Valor do Período</button>
+          <span  *ngIf="maior.valor >= 0">O menor valor foi {{maior.valor}} no dia {{maior.dia}}</span>
+        </div>
+      </div>
+      <div class="resultado-dir">
+        <button (click)="acimaMediaFat()">Valores acima da Média do Período</button>
+        <div class="fullList">
+          <div class="lista" *ngFor="let fat of acimaMedia">dia: {{fat.dia}} <span>valor: {{fat.valor}}</span></div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

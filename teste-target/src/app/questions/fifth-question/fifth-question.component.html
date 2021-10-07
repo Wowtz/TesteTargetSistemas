@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <main>
+    <div>
+      <h3>
+        5) Escreva um programa que inverta os caracteres de um string.
+      </h3>
+    </div>
+    <div>
+      <p>IMPORTANTE:</p>
+      <p>a) Essa string pode ser informada através de qualquer entrada de sua preferência ou pode ser previamente definida no código;</p>
+      <p>b) Evite usar funções prontas, como, por exemplo, reverse;</p>
+      <input
+        placeholder="Digite aqui o texto"
+        [(ngModel)]="texto"
+        (ngModelChange)="reverse($event)"
+        />
+      <span>
+        {{result}}
+      </span>
+    </div>
+  </main>
+</body>
+</html>
